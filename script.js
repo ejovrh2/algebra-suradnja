@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	let pokemons = [];
-	
+	function colorThead(){
+		$('table th').css('color', 'red');	
+	}
 	function addStripes() {
 		$('table tr').removeClass('striped');
 		$('table tr:nth-child(even)').addClass('striped');
@@ -19,6 +21,7 @@ $(document).ready(function(){
 		});
 		
 		addStripes();
+		colorThead();
 
 		setTimeout(function() {
 			const hideElements = $("table td a:contains('p')").filter(function(){
