@@ -1,6 +1,4 @@
 .striped {
 	background-color: lightGray;
 }
- .table-striped > tbody > tr:nth-of-type(even) td:first-child {
-    background-color: pink ;    
-}
+ 
