@@ -1,5 +1,10 @@
 $(document).ready(function(){
 	let pokemons = [];
+
+	function colorThead(){
+		$('table th').css('color', 'red');	
+	}
+	
 	function colorThead(){
 		$('table th').css('color', 'red');	
 	}
